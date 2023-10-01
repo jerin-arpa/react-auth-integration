@@ -11,10 +11,10 @@ const Login = () => {
 
     return (
         <div>
-            <div className="text-center mb-5">
+            <div className="text-center mb-10">
                 <h1 className="text-4xl font-bold">Login now!</h1>
             </div>
-            <div className="hero-content">
+            <div className="flex justify-center">
                 <div className="card flex-shrink-0 w-full lg:w-2/5 shadow-2xl bg-base-200">
                     <div className="card-body">
                         <form onSubmit={handleLoggedIn}>
